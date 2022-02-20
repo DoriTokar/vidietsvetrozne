@@ -71,7 +71,7 @@
     .left-m-12 {margin-left: 100%;}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 993px) {
     .space-l-1 { display: inline-block; margin: 8px; }
     .space-l-2 { display: inline-block; margin: 16px; }
     .space-l-3 { display: inline-block; margin: 24px; }
@@ -149,6 +149,18 @@ p {
     color: #221f20;
 }
 
+#deco-line {
+    position: fixed;
+    left: 32px;
+    top: 50%;
+    width: 20px;
+    height: 80vh;
+    transform: translateY(-50%);
+    background-color: #221f20;
+    border-radius: 16px;
+    z-index: 2;
+}
+
 .button {
     display: block;
     margin: 8px;
@@ -157,4 +169,9 @@ p {
     border-radius: 24px;
     text-align: center;
     text-decoration: none;
+    transition: .2s all ease-in-out;
+}
+
+.button:hover {
+    border-radius: 8px;
 }
