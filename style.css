@@ -32,6 +32,10 @@
 /*#endregion*/
 
 /*#region Grid*/
+[class^="space"] {
+    margin: 0;
+}
+
 .left-s-1 {margin-left: 8.33%;}
 .left-s-2 {margin-left: 16.66%;}
 .left-s-3 {margin-left: 25%;}
@@ -46,6 +50,12 @@
 .left-s-12 {margin-left: 100%;}
 
 @media only screen and (min-width: 600px) {
+    .space-m-1 { display: inline-block; margin: 8px; }
+    .space-m-2 { display: inline-block; margin: 16px; }
+    .space-m-3 { display: inline-block; margin: 24px; }
+    .space-m-4 { display: inline-block; margin: 32px; }
+    .space-m-5 { display: inline-block; margin: 64px; }
+    .space-m-6 { display: inline-block; margin: 92px; }
     /* For tablets: */
     .left-m-1 {margin-left: 8.33%;}
     .left-m-2 {margin-left: 16.66%;}
@@ -62,6 +72,12 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .space-l-1 { display: inline-block; margin: 8px; }
+    .space-l-2 { display: inline-block; margin: 16px; }
+    .space-l-3 { display: inline-block; margin: 24px; }
+    .space-l-4 { display: inline-block; margin: 32px; }
+    .space-l-5 { display: inline-block; margin: 64px; }
+    .space-l-6 { display: inline-block; margin: 92px; }
     /* For desktop: */
     .left-l-1 {margin-left: 8.33%;}
     .left-l-2 {margin-left: 16.66%;}
@@ -78,34 +94,7 @@
 }
 /*#endregion*/
 
-body {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-}
-
-header, footer {
-    padding: 8px;
-}
-
-h1 {
-    font-size: 6rem;
-    text-shadow: -5px 5px rgba(0, 0, 0, .5);
-    text-align: center;
-}
-
-p {
-    color: #221f20;
-}
-
-.button {
-    display: block;
-    padding: 8px;
-    width: 300px;
-    border-radius: 24px;
-    text-align: center;
-}
-
+/*#region Layout and sections*/
 .container {
     position: relative;
     width: 100%;
@@ -134,3 +123,38 @@ p {
 }
 #section-about {background-image: url("background-wave-lime.svg");}
 #section-reviews {background-image: url("background-wave-green.svg");}
+
+.children-margin > * {
+    margin: 8px;
+}
+/*#endregion*/
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header, footer {
+    padding: 8px;
+}
+
+h1 {
+    font-size: 6rem;
+    text-shadow: -5px 5px rgba(0, 0, 0, .5);
+    text-align: center;
+}
+
+p {
+    color: #221f20;
+}
+
+.button {
+    display: block;
+    margin: 8px;
+    padding: 8px;
+    width: 300px;
+    border-radius: 24px;
+    text-align: center;
+    text-decoration: none;
+}
