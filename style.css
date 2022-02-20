@@ -36,3 +36,5 @@
 #section-title {
     background-image: url('./background-wave-orange.svg');
 }
+#section-about {background-image: url("background-wave-lime.svg");}
+#section-reviews {background-image: url("background-wave-green.svg");}
