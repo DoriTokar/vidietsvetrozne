@@ -1,3 +1,27 @@
 @charset "utf-8";
 /* CSS Document */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-green {
+    background-color: #456331;
+}
+.background-orange {
+    background-color: #f16322;
+}
+.background-lime {
+    background-color: #b2b635;
+}
+.background-black {
+    background-color: #221f20;
+}
+
+.text-color-green {
+    color: #456331;
+}
+.text-color-black {
+    color: #221f20;
+}
