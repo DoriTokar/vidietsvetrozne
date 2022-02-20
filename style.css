@@ -1,10 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-@font-face {
-    font-family: 'hammers.and.strings';
-    src:  url('hammers.and.strings.ttf')  format('truetype'); /* Safari, Android, iOS */
-}
 
 * {
     margin: 0;
@@ -79,7 +75,7 @@ header, footer {
 }
 
 h1 {
-    font-family: 'hammers.and.strings';
+    font-family: ;
     font-size: 6rem;
     text-shadow: -5px 5px rgba(0, 0, 0, .5);
     text-align: center;
