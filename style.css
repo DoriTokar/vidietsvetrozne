@@ -140,7 +140,8 @@ header, footer {
 }
 
 h1 {
-    font-size: 6rem;
+    margin: 0;
+    font-size: 5rem;
     text-shadow: -5px 5px rgba(0, 0, 0, .5);
     text-align: center;
 }
@@ -174,4 +175,10 @@ p {
 
 .button:hover {
     border-radius: 8px;
+}
+
+.bold-card {
+    padding: 64px;
+    border-radius: 64px;
+    overflow: hidden;
 }
