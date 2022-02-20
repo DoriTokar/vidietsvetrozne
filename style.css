@@ -71,7 +71,7 @@
     .left-m-12 {margin-left: 100%;}
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1081px) {
     .space-l-1 { display: inline-block; margin: 8px; }
     .space-l-2 { display: inline-block; margin: 16px; }
     .space-l-3 { display: inline-block; margin: 24px; }
