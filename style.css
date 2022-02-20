@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     color: white;
+    font-weight: 600;
 }
 
 /*#region Colors*/
@@ -22,15 +23,28 @@
     background-color: #221f20;
 }
 
-.text-left-lor-green {
+.text-green {
     color: #456331;
 }
-.text-left-lor-black {
+.text-black {
     color: #221f20;
 }
 /*#endregion*/
 
 /*#region Grid*/
+.left-s-1 {margin-left: 8.33%;}
+.left-s-2 {margin-left: 16.66%;}
+.left-s-3 {margin-left: 25%;}
+.left-s-4 {margin-left: 33.33%;}
+.left-s-5 {margin-left: 41.66%;}
+.left-s-6 {margin-left: 50%;}
+.left-s-7 {margin-left: 58.33%;}
+.left-s-8 {margin-left: 66.66%;}
+.left-s-9 {margin-left: 75%;}
+.left-s-10 {margin-left: 83.33%;}
+.left-s-11 {margin-left: 91.66%;}
+.left-s-12 {margin-left: 100%;}
+
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     .left-m-1 {margin-left: 8.33%;}
@@ -75,9 +89,20 @@ header, footer {
 }
 
 h1 {
-    font-family: ;
     font-size: 6rem;
     text-shadow: -5px 5px rgba(0, 0, 0, .5);
+    text-align: center;
+}
+
+p {
+    color: #221f20;
+}
+
+.button {
+    display: block;
+    padding: 8px;
+    width: 300px;
+    border-radius: 24px;
     text-align: center;
 }
 
