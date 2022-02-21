@@ -2,6 +2,7 @@
 /* CSS Document */
 
 @import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -171,6 +172,7 @@ h1 {
 p {
     color: #221f20;
 	font-size: 16pt;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #deco-line {
