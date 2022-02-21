@@ -1,12 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
 * {
     margin: 0;
     padding: 0;
     color: white;
-    font-weight: 600;
 }
 
 /*#region Colors*/
@@ -28,6 +27,9 @@
 }
 .text-black {
     color: #221f20;
+}
+.text-white {
+    color: #ffffff;
 }
 /*#endregion*/
 
@@ -163,10 +165,12 @@ h1 {
     margin: 0;
     font-size: 5rem;
     text-shadow: -3px 3px rgba(0, 0, 0, .8);
+	font-family: 'Gluten', cursive;
 }
 
 p {
     color: #221f20;
+	font-size: 16pt;
 }
 
 #deco-line {
@@ -190,6 +194,8 @@ p {
     text-align: center;
     text-decoration: none;
     transition: .2s all ease-in-out;
+	font-family: 'Gluten', cursive;
+	font-size: 15pt;
 }
 
 .button:hover {
@@ -206,5 +212,57 @@ p {
     overflow: hidden;
 }
 
-#meno {text-align: left;}
-h3 {text-align: center;}
+
+#meno {
+	text-align: left;
+}
+
+
+header {padding-left: 70px;
+        padding-right: 150px;}
+
+
+.icons:hover {
+	transform: scale(1.3,1.3) 
+}
+.icons {
+	transition: .2s all ease-in-out;
+}
+
+
+#flower {
+	width: 150px;
+    height: 150px;
+    transition: .1s all ease-in-out;
+    background-color: #E582A3;
+	border-radius: 75pt;
+	transform: translateX(30%);
+}
+
+#flower:hover {
+	transform: scale(1.1,1.1) translateX(30%);
+}
+
+header img {
+	width: 80px;
+	height: 80px;
+	float: right;
+	transform: translateY(-15%)
+}
+
+#MENOKNIHY {
+	width: 390px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+

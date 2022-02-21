@@ -14,11 +14,6 @@
 
     <div class="container">
 
-
-        <header class="background-green scroll-snap">
-           <div id="meno"> <h3>Dóra Tokárová</h3>  </div>
-        </header>
-
        
 
         <div id="section-title" class="scroll-snap">
@@ -26,12 +21,13 @@
             <div class="w3-row">
                 <!-- Header -->
                 <header class="background-green">
-                    <h3>Dóra Tokárová</h3>
+                   <img src="termékek/cart-14.svg"> <h3>Dóra Tokárová</h3> 
                 </header>
                 <!-- Title -->
-                <div class="w3-col space-s-4"></div>
-                <div class="w3-col m10 left-m-1 l4 left-l-2">
-                    <h1>VIDIEŤ SVET RÔZNE</h1>
+                <div class="w3-col space-s-5"></div>
+                <div class="w3-col m10 left-m-1 l4 left-l-3">
+                    <img id="MENOKNIHY" src="termékek/meno knihy 2-13.svg">
+					<br>
                     <p>Kniha pre grafikov s citátmi a tipmi pre pozitívnejšie myslenie</p>
                     <div class="space-l-5"></div>
                     <p>Pre rýchlejšie objednanie knihy kliknite sem</p>
@@ -48,11 +44,11 @@
             <div class="w3-row">
                 <!-- About -->
                 <div class="w3-col space-s-5"></div>
+				<h1 class="text-center w3-col m10 left-m-1 l4 left-l-6">O KNIHE</h1>
                 <img class="w3-col m4 left-m-4 l2 left-l-2" src="Jungle Abstract 2 Mini Art Print by thindesign.jfif" />
-                <div class="w3-col m10 left-m-1 l4 left-l-2">
-                    <h1 class="text-center">O KNIHE</h1>
+                <div class="w3-col m10 left-m-1 l4 left-l-1">
                     <div class="space-l-4"></div>
-                    <p>
+                    <p class="bold-card background-orange">
                         Grafici, hlavne začiatočníci, majú problém so začatím svojho biznisu. Lieta im veľa myšlienok a
                         nápadov v hlave, ako všetko zrealizovať.
                         Aj keď vieš, čo presne chceš so svojím životom, čím sa budeš živiť,
@@ -77,12 +73,13 @@
         <div id="section-reviews" class="scroll-snap">
             <div class="w3-row">
                 <!-- Reviews -->
-                <div class="w3-col m10 left-m-1 l6 left-l-3">
-                    <div class="w3-col space-s-6"></div>
-                    <h1 class="text-center">RECENZIE</h1>
-                    <a href="#" onclick="refreshReview()">🔃</a>
-                    <p id="text-review" class="bold-card background-lime"></p>
-                </div>
+				 <div class="w3-col space-s-6"></div>
+                    <h1 class="text-center w3-col m10 left-m-1 l6 left-l-6">RECENZIE</h1>
+				<a href="#" class="w3-col m1 left-m-1 left-l-3" onclick="refreshReview()"> <img id="flower" src="termékek/flower -12.svg"> </a>
+                    <p id="text-review" class="bold-card background-lime w3-col m10 l5"></p>
+                
+				<div class="w3-col left-l-1 l1">
+<img class="icons" src="termékek/web fb icon-08.svg"> <img class="icons" src="termékek/web email icon-10.svg"> <img class="icons" src="termékek/web ig icon-11.svg"> </div>
             </div>
             <!-- Footer -->
             <footer class="background-orange">
@@ -93,6 +90,7 @@
     </div>
 
     <script src="index.js"></script>
+	
 </body>
 
 </html>
