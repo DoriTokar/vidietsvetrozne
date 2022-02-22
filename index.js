@@ -4,6 +4,36 @@ function rdm(max) {
 }
 //#endregion
 
+//#region Slideshow
+class Slideshow {
+    static currentImageIndex = 0;
+
+    static colors = ['#b2b635', '#d7d7d7', '#537145'];
+
+    static images = [
+        './termékek/mug moc. (kt. použijem) 2.png',
+        './termékek/socks mockup.png',
+        './termékek/tshirt mockup.png',
+    ];
+
+    static start() {
+        let svgElement = document.getElementById('slideshow-background');
+        let imageElement = document.getElementById('image-slideshow');
+
+        setInterval(() => {
+            this.currentImageIndex++;
+            if (this.currentImageIndex >= this.images.length) {
+                this.currentImageIndex = 0;
+            }
+            svgElement.style.fill = this.colors[this.currentImageIndex];
+            imageElement.setAttribute('xlink:href', this.images[this.currentImageIndex]);
+        }, 5000);
+    }
+}
+
+Slideshow.start();
+//#endregion
+
 //#region Cart
 class Cart {
     static items = [];
