@@ -4,30 +4,44 @@ function rdm(max) {
 }
 //#endregion
 
+const shopItems = [
+    {
+        name: 'hrnček',
+        image: './termékek/mug moc. (kt. použijem) 2.png',
+        color: '#b2b635',
+    },
+    {
+        name: 'ponožky',
+        image: './termékek/socks mockup.png',
+        color: '#d7d7d7',
+    },
+    {
+        name: 'tričko',
+        image: './termékek/tshirt mockup.png',
+        color: '#537145',
+    },
+];
+
 //#region Slideshow
 class Slideshow {
     static currentImageIndex = 0;
 
-    static colors = ['#b2b635', '#d7d7d7', '#537145'];
-
-    static images = [
-        './termékek/mug moc. (kt. použijem) 2.png',
-        './termékek/socks mockup.png',
-        './termékek/tshirt mockup.png',
-    ];
-
     static start() {
+        setInterval(() => {
+            this.next();
+        }, 5000);
+    }
+
+    static next() {
         let svgElement = document.getElementById('slideshow-background');
         let imageElement = document.getElementById('image-slideshow');
 
-        setInterval(() => {
-            this.currentImageIndex++;
-            if (this.currentImageIndex >= this.images.length) {
-                this.currentImageIndex = 0;
-            }
-            svgElement.style.fill = this.colors[this.currentImageIndex];
-            imageElement.setAttribute('xlink:href', this.images[this.currentImageIndex]);
-        }, 5000);
+        this.currentImageIndex++;
+        if (this.currentImageIndex >= shopItems.length) {
+            this.currentImageIndex = 0;
+        }
+        svgElement.style.fill = shopItems[this.currentImageIndex].color;
+        imageElement.setAttribute('xlink:href', shopItems[this.currentImageIndex].image);
     }
 }
 
@@ -40,10 +54,15 @@ class Cart {
 
     static addItem(item) {
         this.items.push(item);
+        alert('+🛒 ' + item);
     }
 
     static addCurrentSlideshowItem() {
+        this.addItem(shopItems[Slideshow.currentImageIndex].name);
+    }
 
+    static show() {
+        alert('🛒: ' + this.items);
     }
 }
 //#endregion
