@@ -42,6 +42,9 @@ class Slideshow {
         }
         svgElement.style.fill = shopItems[this.currentImageIndex].color;
         imageElement.setAttribute('xlink:href', shopItems[this.currentImageIndex].image);
+        if (scrollSection == 2) {
+            document.getElementById('deco-line').style.backgroundColor = shopItems[this.currentImageIndex].color;
+        }
     }
 }
 
@@ -83,4 +86,25 @@ class Reviews {
 }
 
 Reviews.refresh();
+//#endregion
+
+//#region Deco-line
+var sectionColors = ['#f16322', '#b2b635', 'transparent', '#456331'];
+var container = document.getElementsByClassName('container')[0];
+var scrollSection = 0;
+
+container.addEventListener('scroll', (e) => {
+    let scroll = container.scrollTop;
+    let height = container.clientHeight;
+    scrollSection = Math.round(scroll / height);
+    
+    if (scrollSection == 2) {
+        document.getElementById('deco-line').style.backgroundColor = shopItems[Slideshow.currentImageIndex].color;
+    }
+    else {
+        document.getElementById('deco-line').style.backgroundColor = sectionColors[scrollSection];
+    }
+});
+
+document.getElementById('deco-line').style.backgroundColor = sectionColors[scrollSection];
 //#endregion

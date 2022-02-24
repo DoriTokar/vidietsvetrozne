@@ -377,9 +377,9 @@ p {
     width: 20px;
     height: 80vh;
     transform: translateY(-50%);
-    background-color: #221f20;
     border-radius: 16px;
     z-index: 2;
+    transition: .2s all ease-in-out;
 }
 
 .button {
