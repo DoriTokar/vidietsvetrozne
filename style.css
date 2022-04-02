@@ -16,7 +16,7 @@
 }
 
 .background-orange {
-    background-color: #f16322;
+    background-color: #ED8C66;
 }
 
 .background-lime {
@@ -324,10 +324,6 @@
 
 #section-reviews {
     background-image: url("background-wave-green.svg");
-}
-
-.children-margin>* {
-    margin: 8px;
 }
 
 /*#endregion*/

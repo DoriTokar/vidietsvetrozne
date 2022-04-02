@@ -21,42 +21,45 @@
 	.st15{fill:#F5874E;}
 	.st16{opacity:0.65;}
 	.st17{fill:#FFFFFF;}
-	.st18{fill:none;stroke:#000000;stroke-miterlimit:10;}
-	.st19{fill:#834830;}
-	.st20{fill:#475633;}
-	.st21{fill:#7552A2;}
-	.st22{fill:#8451A1;}
-	.st23{fill:#E9A2C8;}
-	.st24{fill:none;}
-	.st25{fill:none;stroke:#C4C6C4;stroke-miterlimit:10;}
-	.st26{fill:#C4C6C4;}
-	.st27{fill:none;stroke:#C4C6C4;stroke-width:3;stroke-miterlimit:10;}
-	.st28{fill:#4A5938;}
-	.st29{clip-path:url(#XMLID_5_);fill:#F26423;}
-	.st30{fill:none;stroke:#466432;stroke-width:0.5;stroke-miterlimit:10;}
-	.st31{fill:none;stroke:#466432;stroke-miterlimit:10;}
-	.st32{fill:none;stroke:#85966F;stroke-miterlimit:10;}
-	.st33{fill:#E9C2A4;}
-	.st34{fill:#E584A3;}
-	.st35{fill:#DA5326;}
-	.st36{opacity:0.13;}
-	.st37{fill:#B3B737;}
-	.st38{fill:#E3E1B7;}
-	.st39{fill:#DAD89F;}
-	.st40{fill:#CBCB79;}
-	.st41{fill:#ECEACF;}
-	.st42{fill:#D2D28D;}
-	.st43{fill:#C3C463;}
-	.st44{fill:#F17948;}
-	.st45{fill:#AF4425;}
-	.st46{fill:none;stroke:#E4E2B9;stroke-miterlimit:10;}
-	.st47{fill:#BB8D6F;}
-	.st48{fill:none;stroke:#5B7244;stroke-miterlimit:10;}
-	.st49{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st50{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st18{fill:#ED8C64;}
+	.st19{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st20{fill:#834830;}
+	.st21{fill:#475633;}
+	.st22{fill:#7552A2;}
+	.st23{fill:#8451A1;}
+	.st24{fill:#E9A2C8;}
+	.st25{fill:none;}
+	.st26{fill:none;stroke:#C4C6C4;stroke-miterlimit:10;}
+	.st27{fill:#C4C6C4;}
+	.st28{fill:none;stroke:#C4C6C4;stroke-width:3;stroke-miterlimit:10;}
+	.st29{fill:#4A5938;}
+	.st30{clip-path:url(#XMLID_5_);fill:#F26423;}
+	.st31{fill:none;stroke:#466432;stroke-width:0.5;stroke-miterlimit:10;}
+	.st32{fill:none;stroke:#466432;stroke-miterlimit:10;}
+	.st33{fill:none;stroke:#85966F;stroke-miterlimit:10;}
+	.st34{fill:#E9C2A4;}
+	.st35{fill:#E584A3;}
+	.st36{fill:#DA5326;}
+	.st37{opacity:0.13;}
+	.st38{fill:#B3B737;}
+	.st39{fill:#E3E1B7;}
+	.st40{fill:#DAD89F;}
+	.st41{fill:#CBCB79;}
+	.st42{fill:#ECEACF;}
+	.st43{fill:#D2D28D;}
+	.st44{fill:#C3C463;}
+	.st45{fill:#F17948;}
+	.st46{fill:#AF4425;}
+	.st47{fill:none;stroke:#E4E2B9;stroke-miterlimit:10;}
+	.st48{fill:#BB8D6F;}
+	.st49{fill:none;stroke:#5B7244;stroke-miterlimit:10;}
+	.st50{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st51{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st52{fill:#E582A3;}
+	.st53{fill:none;stroke:#FFFFFF;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
 <g>
-	<path class="st2" d="M170.32,4.17c-13.74,0.02-26.16,43.33-28.91,53.61c-6.98,26.11-11.22,52.97-12.72,79.98
+	<path class="st18" d="M170.32,4.17c-13.74,0.02-26.16,43.33-28.91,53.61c-6.98,26.11-11.22,52.97-12.72,79.98
 		c-2.51,45.13,2.61,90.72,15.33,134.06c10.63,36.23,25.02,71.01,62.05,86.42c25.38,10.56,61.94,8.69,89.36,7.77
 		c68.45-2.29,150.96-22.37,216.44,4.99c21.92,9.16,41.46,24.17,56.04,43.11c15.95,20.72,22.59,46.93,38.88,67.49
 		c17.47,22.05,41,38.76,66.74,49.44c44.13,18.31,93.09,20.49,140.74,18.62c27.56-1.08,55.32-3.42,82.6,0.69
